@@ -1,1 +1,1 @@
-00 00 1 * * /var/www/letsencrypt/make_cert.sh
+00 00 1 * * perl -e 'sleep int(rand(3600))' && /var/www/letsencrypt/make_cert.sh
